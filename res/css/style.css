@@ -11,6 +11,7 @@
 body{
   background-image:url("../img/pozadí3.jpg");
   max-width: 100%;
+ 
 }
 #cookie:hover{
   transform: scale(1.3);
