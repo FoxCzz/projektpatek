@@ -1,4 +1,7 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@keyframes spin {
+  100%{-webkit-transform: rotate(360deg);}
+}
 
 .susenka{
   display: flex;
@@ -7,9 +10,7 @@
   height: 50vh;
   -webkit-animation: spin 7s linear infinite;
 }
-@keyframes spin {
-  100%{-webkit-transform: rotate(360deg);}
-}
+
 .img{
   width: 50%;
 }
